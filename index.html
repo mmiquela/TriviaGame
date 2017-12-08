@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="first_container">
+        <h1 class="logo">Famous Monuments</h1>
+        <button id=start_button>Start</button>
+    </div>
+
+    <div id="questions_container">
+        <h1 class="logo">Famous Monuments</h1>
+        <h1 id="timer_start">Time Remaining: <span id="timer_remaining">60 Seconds</span></h1>
+
+        <h1>1. _______ is the longest man-made structure in the world. It is also one of the Seven Wonders of the World.</h1>
+        <input type="radio" name="q1" value="The Pyramids of Giza">The Pyramids of Giza
+        <input type="radio" name="q1" value="The Great Wall of China">The Great Wall of China
+        <input type="radio" name="q1" value="The Panama Canal">The Panama Canal
+        <input type="radio" name="q1" value="The Eiffel Tower">The Eiffel Tower
+
+        <h1>2. The ______ is a large, beautiful mausoleum in India. It is also one of the Seven New Wonders of the World.</h1>
+        <input type="radio" name="q2" value="Taj Mahal">Taj Mahal
+        <input type="radio" name="q2" value="Gateway of India">Gateway of India
+        <input type="radio" name="q2" value="St. Andrew's Kirk">St. Andrew's Kirk
+        <input type="radio" name="q2" value="Kalki Temple">Kalki Temple
+
+        <h1>3. _______ is a big bell in London.</h1>
+        <input type="radio" name="q3" value="Gisborne Millenium Countdown Clock">Gisborne Millenium Countdown Clock
+        <input type="radio" name="q3" value="Glockenspiel">Glockenspiel
+        <input type="radio" name="q3" value="Big Ben">Big Ben
+        <input type="radio" name="q3" value="Nine O'Clock Gun">Nine O'Clock Gun
+
+        <h1>4. The _______ are ancient statues on an island belonging to Chile.</h1>
+        <input type="radio" name="q4" value="Statue of Liberty">Statue of Liberty
+        <input type="radio" name="q4" value="Great Sphinx of Giza">Great Sphinx of Giza
+        <input type="radio" name="q4" value="Easter Island Moai">Easter Island Moai
+        <input type="radio" name="q4" value="Bohol">Bohol
+
+        <h1>5. _______ is a famous statue that is "half-lion".</h1>
+        <input type="radio" name="q5" value="The Great Sphinx of Giza">The Great Sphinx of Giza
+        <input type="radio" name="q5" value="The Statue of Liberty">The Statue of Liberty
+        <input type="radio" name="q5" value="Apollo Belvedere">Apollo Belvedere
+        <input type="radio" name="q5" value="Christ the Redeemer">Christ the Redeemer
+
+        <h1>6. _______ is a famous tower that is a very popular tourist attraction in Italy.</h1>
+        <input type="radio" name="q6" value="The Colosseum">The Colosseum
+        <input type="radio" name="q6" value="The Leaning Tower of Pisa">The Leaning Tower of Pisa
+        <input type="radio" name="q6" value="The Pantheon">The Pantheon
+        <input type="radio" name="q6" value="St. Mark's Cathedral">St. Mark's Cathedral
+
+        <h1>7. _______ is a very famous temple in Greece in honor of the Greek goddess of wisdom.</h1>
+        <input type="radio" name="q7" value="The Parthenon">The Parthenon
+        <input type="radio" name="q7" value="The Colosseum">The Colosseum
+        <input type="radio" name="q7" value="The Vatican">The Vatican
+        <input type="radio" name="q7" value="Rockefeller Center">Rockefeller Center
+
+        <h1>8. The Statue of Liberty was a gift from France.</h1>
+        <input type="radio" name="q8" value="True">True
+        <input type="radio" name="q8" value="False">False
+
+        <h1>9. _______ is a prehistoric monument located in the UK, and is made up of rocks and stones.</h1>
+        <input type="radio" name="q9" value="Machu Picchu">Machu Picchu
+        <input type="radio" name="q9" value="Stonehenge">Stonehenge
+        <input type="radio" name="q9" value="The Great Wall of China">The Great Wall of China
+        <input type="radio" name="q9" value="The Leaning Tower of Pisa"> The Leaning Tower of Pisa
+
+        <h1>10. _______ is a lost city and is located in Peru's mountains. It is also one of the New Seven Wonders of the World.</h1>
+        <input type="radio" name="q10" value="Machu Picchu">Machu Picchu
+        <input type="radio" name="q10" value="San Lorenzo">San Lorenzo
+        <input type="radio" name="q10" value="Troy">Troy
+        <input type="radio" name="q10" value="Angkor">Angkor
+		<br>
+        <button id = done_button>Submit</button>
+    </div>
+
+    <div id="results_container">
+        <h1 class="logo">Famous Monuments</h1>
+
+        <h1 id="done">Your Results!</h1>
+        <br>
+
+        <h1>Correct Answers <span id="correct_answers">0</span></h1>
+        <h1>Incorrect Answers <span id=wrong_answers>0</span></h1>
+        <h1>Question/s Left Unanswered <span id="unanswered">0</span></h1>
+    </div>
+
+    <!-- Link in jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!-- Link in JavaScript -->
+        <script src="assets/javascript/games.js"></script>
+</body>
+
+</html>
